@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 1250px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+.banner{
+    height: 450px;
+    background-image: url(../images/new.jpg);
+    background-size: 1250px 450px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.banner-content{
+    color: white;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* align-items: center; ekhane ulta ta kaj kore and height na dile kaj hoi na  */
+    justify-content: center;
+    height: 450px;
+}
+.banner-content p{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-content h2{
+    font-size: 72px;
+    font-weight: black;
+}
